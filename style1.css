@@ -1,0 +1,7 @@
+.d img{
+    display: flex;
+    text-align: right;
+    width: 354px;
+    height: 447px;
+    align-items: flex-end;
+}

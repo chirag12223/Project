@@ -1,0 +1,91 @@
+
+@keyframes rotate {
+    0% {
+      transform: rotate(-5deg);
+    }
+    100% {
+      transform: rotate(5deg);
+    }
+  }
+  body{
+      background-color: rgb(155, 155, 117);
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+.para{
+    display: flex;
+    background-color: rgb(180, 96, 169);
+    justify-content: center;
+}
+
+.help{
+    background-color: pink;
+    border: 6px solid rgb(107, 14, 31);
+    columns: red;
+    display: flex;
+    justify-content:space-between;
+}
+nav ul a{
+    color: white;
+    
+}
+nav ul a:hover{
+    color: black;
+    font-weight: bold;
+}
+nav ul li{
+    list-style: none;
+    padding: 8px;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+    text-align:right;
+
+}
+footer img{
+    text-align: start;
+}
+.main{
+    min-height: 180000px;
+}
+.img{
+    text-align:left;
+}
+.pic {
+    background-color: rgb(66, 66, 143);
+    display: flex;
+    padding:5px;
+    justify-content: center;
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+.pic img:hover{
+    width: 456px;
+    height:456px;
+    animation-play-state: paused;
+}
+.pic img{
+    padding:5px;
+}
+.courses{
+    display: flex;
+    height: 200px;
+    background-color: pink;
+
+}
+.course{
+    padding: 15px;
+    background-color: green;
+    margin: 3px;
+
+}
